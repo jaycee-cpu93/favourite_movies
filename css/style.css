@@ -1,7 +1,6 @@
 /* General style */
 * {
     margin: 0;
-    overflow: hidden;
 }
 img {
     border-color: rgb(18, 15, 15);
@@ -33,6 +32,9 @@ li:hover{
 }
 .home_paragraph a:hover{
     color: brown;
+}
+#go_to_home:hover{
+    color: rgb(14, 118, 159);
 }
 
 /* start of breaded life style */
