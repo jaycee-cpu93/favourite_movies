@@ -1,0 +1,98 @@
+/* General style */
+* {
+    margin: 0;
+    overflow: hidden;
+}
+img {
+    border-color: rgb(18, 15, 15);
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+p {
+    font-family: Arial, sans-serif;
+    line-height: 2;
+}
+h3 {
+    font-size: 30px;
+    font-weight:800;
+    line-height: 2;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+li:hover{
+    color: red;
+}
+
+/*Homepage style*/
+
+.home_paragraph>a{
+    font-size: large;
+}
+.home_paragraph a:hover{
+    color: brown;
+}
+
+/* start of breaded life style */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.highlight:hover {
+    background: #e7e7e7;
+}
+.breaded_life{
+    background-color: #FAD357;
+}
+.breaded_life > h3{
+    color: brown;
+}
+
+/* end of breaded life style */
+
+/* start of merlin style */
+.merlin {
+    background-color: #a7c2d6;
+}
+.merlin > h3{
+    color: blue;
+}
+/* end of merlin style */
+
+/* start of silicon_valley style */
+.silicon_valley {
+    background-color: tomato
+}
+.silicon_valley > h3{
+   color: black; 
+}
+/* end of silicon_valley style */
+
+/* start of mortal_kombat style */
+.mortal_kombat{
+    background-color: #D7A672;
+}
+.mortal_kombat > h3{
+    color:rgb(161, 104, 6)
+}
+/* end of mortal_kombat style */
+
+/* start of pursuit_of_happiness style */
+.pursuit_of_happiness{
+    background-color: #F5E5DC;
+}
